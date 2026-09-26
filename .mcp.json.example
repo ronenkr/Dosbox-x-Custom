@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "dosbox": {
+      "command": "<path-to-this-repo>/.venv/Scripts/python.exe",
+      "args": ["-m", "dosbox_mcp"],
+      "env": {
+        "DOSBOX_X_EXE": "<path-to-this-repo>/bin/x64/Agent Release SDL2/dosbox-x.exe"
+      }
+    }
+  }
+}
